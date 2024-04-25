@@ -45,7 +45,7 @@ namespace ToDO.Controllers
                 toDo.isComplete == "STARTED" ||
                 toDo.isComplete == "COMPLETED")
             {
-ToDo toDoNew=new ToDo();
+            ToDo toDoNew=new ToDo();
             toDoNew.Title=toDo.Title.ToLower();
             toDoNew.Priority = toDo.Priority;
             toDoNew.Content=toDo.Content.ToLower();
