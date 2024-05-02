@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.JsonPatch.Internal;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using ToDO.Data;
+using ToDO.Manager;
 using ToDO.Models;
 
 
@@ -12,9 +13,14 @@ namespace ToDO.Controllers
     [ApiController]
     public class ToDoController
     {
+        private readonly ManagerToDo _mng;
+        public ToDoController(ManagerToDo mng) {
+            this._mng = mng;
+        }
         StajyertestContext stj = new StajyertestContext();
-
+        
         [HttpGet]
+
         public List<ToDo> GetListOfTask([FromQuery]string? priority, [FromQuery] string? isComplete) {
             IQueryable < ToDo > datas= stj.ToDos;
 

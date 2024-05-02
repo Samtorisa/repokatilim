@@ -247,3 +247,4 @@ C:\Users\samet.nisanci\source\repos\ToDO\ToDO\bin\Debug\net8.0\Microsoft.AspNetC
 C:\Users\samet.nisanci\source\repos\ToDO\ToDO\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
 C:\Users\samet.nisanci\source\repos\ToDO\ToDO\obj\Debug\net8.0\ToDO.RazorAssemblyInfo.cache
 C:\Users\samet.nisanci\source\repos\ToDO\ToDO\obj\Debug\net8.0\ToDO.RazorAssemblyInfo.cs
+C:\Users\samet.nisanci\source\repos\ToDO\ToDO\obj\Debug\net8.0\ToDO.sourcelink.json
